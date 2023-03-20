@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0B46"
+    android:id="@+id/holder"
+    android:contentDescription="@string/justmainscreen"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/sides_zina"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/zina_two" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/flowers_one"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/flower"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/window" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/bottom_bar"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/bar"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/qubba"
+        android:layout_width="160dp"
+        android:layout_height="240dp"
+        app:srcCompat="@drawable/qubba" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/qubba_two"
+        android:layout_width="160dp"
+        android:layout_height="240dp"
+        app:srcCompat="@drawable/quba_two"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/book"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/book" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lantern_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lantern_t" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lantern_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lantern_m" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/lantern_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lantern_s" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

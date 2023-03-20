@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="10000">
+        <KeyFrameSet>
+
+            <!--Zina-->
+            <KeyAttribute
+                android:translationY="-50dp"
+                motion:framePosition="0"
+                motion:motionTarget="@+id/sides_zina" />
+            <KeyAttribute
+                android:translationY="100dp"
+                motion:framePosition="10"
+                motion:motionTarget="@+id/sides_zina" />
+            <KeyAttribute
+                android:translationY="100dp"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/sides_zina" />
+
+            <!--L-M-->
+            <KeyAttribute
+                android:translationY="-50dp"
+                motion:framePosition="0"
+                motion:motionTarget="@+id/lantern_m" />
+            <KeyAttribute
+                android:translationY="300dp"
+                motion:framePosition="15"
+                motion:motionTarget="@+id/lantern_m" />
+            <KeyAttribute
+                android:translationY="300dp"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/lantern_m" />
+
+            <!--L-T-->
+            <KeyAttribute
+                android:translationY="-50dp"
+                motion:framePosition="0"
+                motion:motionTarget="@+id/lantern_t" />
+            <KeyAttribute
+                android:translationY="300dp"
+                motion:framePosition="15"
+                motion:motionTarget="@+id/lantern_t" />
+            <KeyAttribute
+                android:translationY="300dp"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/lantern_t" />
+
+            <!--L-S-->
+            <KeyAttribute
+                android:translationY="-50dp"
+                motion:framePosition="0"
+                motion:motionTarget="@+id/lantern_s" />
+            <KeyAttribute
+                android:translationY="250dp"
+                motion:framePosition="15"
+                motion:motionTarget="@+id/lantern_s" />
+            <KeyAttribute
+                android:translationY="250dp"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/lantern_s" />
+
+            <!--Window-->
+            <KeyAttribute
+                android:alpha="0"
+                android:translationY="0dp"
+                motion:framePosition="0"
+                motion:motionTarget="@+id/window" />
+            <KeyAttribute
+                android:alpha="0"
+                android:translationY="-20dp"
+                motion:framePosition="30"
+                motion:motionTarget="@+id/window" />
+            <KeyAttribute
+                android:alpha="1"
+                android:translationY="0dp"
+                motion:framePosition="40"
+                motion:motionTarget="@+id/window" />
+            <KeyAttribute
+                android:alpha="1"
+                android:translationY="0dp"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/window" />
+
+            <!--bottomBar-->
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="0"
+                motion:motionTarget="@+id/bottom_bar" />
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="40"
+                motion:motionTarget="@+id/bottom_bar" />
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="50"
+                motion:motionTarget="@+id/bottom_bar" />
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/bottom_bar" />
+
+            <!--Qubba-->
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="0"
+                android:translationX="-50dp"
+                motion:motionTarget="@+id/qubba" />
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="50"
+                android:translationX="-50dp"
+                motion:motionTarget="@+id/qubba" />
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="60"
+                android:translationX="0dp"
+                motion:motionTarget="@+id/qubba" />
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="100"
+                android:translationX="0dp"
+                motion:motionTarget="@+id/qubba" />
+
+            <!--Qubba2-->
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="0"
+                android:translationX="50dp"
+                motion:motionTarget="@+id/qubba_two" />
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="50"
+                android:translationX="50dp"
+                motion:motionTarget="@+id/qubba_two" />
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="60"
+                android:translationX="0dp"
+                motion:motionTarget="@+id/qubba_two" />
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="100"
+                android:translationX="0dp"
+                motion:motionTarget="@+id/qubba_two" />
+
+            <!--Book-->
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="0"
+                android:scaleY="3"
+                android:scaleX="3"
+                motion:motionTarget="@+id/book" />
+            <KeyAttribute
+                android:alpha="0"
+                android:scaleY="3"
+                android:scaleX="3"
+                motion:framePosition="60"
+                motion:motionTarget="@+id/book" />
+            <KeyAttribute
+                android:alpha="1"
+                motion:framePosition="70"
+                android:scaleY="1"
+                android:scaleX="1"
+                motion:motionTarget="@+id/book" />
+            <KeyAttribute
+                android:alpha="1"
+                android:scaleY="1"
+                android:scaleX="1"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/book" />
+
+            <!--Book-->
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="0"
+                motion:motionTarget="@+id/flowers_one" />
+            <KeyAttribute
+                android:alpha="0"
+                motion:framePosition="45"
+                motion:motionTarget="@+id/flowers_one" />
+            <KeyAttribute
+                android:alpha="0.7"
+                motion:framePosition="55"
+                motion:motionTarget="@+id/flowers_one" />
+            <KeyAttribute
+                android:alpha="0.7"
+                motion:framePosition="100"
+                motion:motionTarget="@+id/flowers_one" />
+
+
+
+        </KeyFrameSet>
+        <OnClick
+            motion:clickAction="transitionToEnd"
+            motion:targetId="@id/holder" />
+
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/sides_zina"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/lantern_t"
+            android:layout_width="100dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="50dp"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent" />
+        <Constraint
+            android:id="@+id/lantern_m"
+            android:layout_width="100dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="100dp"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/lantern_s"
+            android:layout_width="100dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="40dp"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/window"
+            android:layout_width="350dp"
+            android:layout_height="559dp"
+            android:layout_marginBottom="16dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/bottom_bar"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="56dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/qubba"
+            android:layout_width="160dp"
+            android:layout_height="240dp"
+            android:layout_marginBottom="100dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/qubba_two"
+            android:layout_width="160dp"
+            android:layout_height="240dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"/>
+        <Constraint
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="56dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/flowers_one"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="120dp"
+            android:rotation="-720"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/lantern_t"
+            android:layout_width="100dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="150dp" />
+        <Constraint
+            android:id="@+id/lantern_m"
+            android:layout_width="100dp"
+            android:layout_height="300dp"
+            android:layout_marginEnd="100dp" />
+        <Constraint
+            android:id="@+id/window"
+            android:layout_width="350dp"
+            android:layout_height="559dp"
+            android:layout_marginBottom="16dp" />
+        <Constraint
+            android:id="@+id/lantern_s"
+            android:layout_width="100dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="40dp" />
+        <Constraint
+            android:id="@+id/bottom_bar"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="56dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/qubba"
+            android:layout_width="160dp"
+            android:layout_height="240dp"
+            android:layout_marginBottom="100dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/qubba_two"
+            android:layout_width="160dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="100dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="56dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/flowers_one"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="120dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </ConstraintSet>
+</MotionScene>
